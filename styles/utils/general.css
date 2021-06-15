@@ -14,3 +14,10 @@ body {
   color: #fff;
   font-family: 'Roboto', Arial, Helvetica, sans-serif;
 }
+
+@media only screen and (min-width: 1024px) {
+  body {
+    width: 30%;
+    margin: 0 auto;
+  }
+}
