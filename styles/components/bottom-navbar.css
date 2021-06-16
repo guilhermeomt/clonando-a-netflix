@@ -40,3 +40,7 @@
   text-align: center;
   margin-top: 3px;
 }
+
+.bottom-navbar__text--active {
+  color: #fff;
+}
