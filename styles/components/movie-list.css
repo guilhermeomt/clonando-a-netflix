@@ -1,0 +1,31 @@
+.movie-list {
+  display: flex;
+  gap: 7px;
+  margin-left: 12px;
+  margin-right: 12px;
+  overflow: auto;
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+
+.movie-list::-webkit-scrollbar {
+  display: none;
+}
+
+.movie-list__img {
+  width: 103px;
+  height: 161px;
+}
+
+.movie-list__img--big {
+  width: 154px;
+  height: 251px;
+}
+
+.movie-list__img--rounded {
+  width: 102px;
+  height: 102px;
+  flex-shrink: 0;
+  object-fit: cover;
+  border-radius: 50%;
+}
