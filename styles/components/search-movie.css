@@ -1,0 +1,31 @@
+.search-movie {
+  display: flex;
+  align-items: center;
+}
+
+.search-movie__background {
+  background-color: #424242;
+}
+
+.search-movie__img {
+  width: 146px;
+  height: 76px;
+}
+
+.search-movie__content {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.search-movie__title {
+  font-size: 15px;
+  line-height: 30px;
+  text-align: center;
+  margin-left: 19px;
+}
+
+.search-movie__play {
+  margin-right: 5px;
+}
