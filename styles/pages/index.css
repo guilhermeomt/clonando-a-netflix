@@ -1,4 +1,5 @@
 @import '../utils/index.css';
 @import '../components/status-bar.css';
-@import '../components/bottom-navbar.css';
+@import '../components/navbar.css';
 @import '../components/movie-list.css';
+@import '../components/bottom-navbar.css';
