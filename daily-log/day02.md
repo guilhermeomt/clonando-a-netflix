@@ -1,6 +1,9 @@
 # 🏁 Dia 02 -  Maratona "Clonando a Netflix com HTML, CSS e GitHub"
 ##### Data: 15/06/2021
 
+##### [Clique aqui para ver o dia anterior](./day01.md)
+##### [Clique aqui para ver o dia seguinte](./day03.md)
+
 ## Tópicos abordados
 - HTML
 - CSS

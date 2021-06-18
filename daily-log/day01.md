@@ -1,6 +1,8 @@
 # 🏁 Dia 01 -  Maratona "Clonando a Netflix com HTML, CSS e GitHub"
 ##### Data: 14/06/2021
 
+##### [Clique aqui para ver o dia seguinte](./day02.md)
+
 ## Tópicos abordados
 - UI Design
 - Figma
