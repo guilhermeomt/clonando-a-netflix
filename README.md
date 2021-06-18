@@ -8,3 +8,4 @@ Este é o repositório principal para a maratona [🏁 "Clonando  a Netflix com 
 - [Dia 01](daily-log/day01.md)
 - [Dia 02](daily-log/day02.md)
 - [Dia 03](daily-log/day03.md)
+- [Dia 04](daily-log/day04.md)
