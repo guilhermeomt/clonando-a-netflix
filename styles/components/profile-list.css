@@ -34,19 +34,14 @@
   margin-top: 10px;
 }
 
-.profile-list__item--active {
-  align-self: center;
-  margin-bottom: 10px;
-}
-
 .profile-list__img {
   width: 65px;
   height: 60px;
+  transition: transform 0.15s ease-in-out;
 }
 
-.profile-list__img--active {
-  width: 73px;
-  height: 69px;
+.profile-list__img:hover {
+  transform: scale(1.1);
 }
 
 .profile-list__img--big {
