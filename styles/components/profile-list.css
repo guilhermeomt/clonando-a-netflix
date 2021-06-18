@@ -6,8 +6,12 @@
 }
 
 .profile-list--grid {
+  width: 50%;
   display: grid;
-  grid-template-columns: 1fr;
+  margin: 0 auto;
+  grid-gap: 25px;
+  justify-content: center;
+  grid-template-columns: 100px 100px;
 }
 
 .profile-list__item {
@@ -26,6 +30,10 @@
   margin-bottom: 20px;
 }
 
+.profile-list__item--add-grid {
+  margin-top: 10px;
+}
+
 .profile-list__item--active {
   align-self: center;
   margin-bottom: 10px;
@@ -39,6 +47,11 @@
 .profile-list__img--active {
   width: 73px;
   height: 69px;
+}
+
+.profile-list__img--big {
+  width: 100px;
+  height: 92px;
 }
 
 .profile-list__text {
