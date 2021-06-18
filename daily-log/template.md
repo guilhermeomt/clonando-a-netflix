@@ -4,8 +4,6 @@
 ##### [Clique aqui para ver o dia anterior](./day0x.md)
 ##### [Clique aqui para ver o dia seguinte](./day0x.md) 
 
-<hr width=200px align="left">
-
 ## Tópicos abordados
 - Tópico #1
 - Tópico #2
