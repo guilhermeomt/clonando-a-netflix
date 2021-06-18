@@ -2,3 +2,19 @@
 
 @import '../components/status-bar.css';
 @import '../components/profile-list.css';
+
+#animation {
+  animation: page-load 0.6s ease;
+}
+
+@keyframes page-load {
+  0% {
+    transform: scale(0.1);
+    opacity: 0;
+  }
+
+  100% {
+    transform: scale(1);
+    opacity: 1;
+  }
+}
