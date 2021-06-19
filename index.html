@@ -6,6 +6,10 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Home | Netflix</title>
+    <script
+      src="https://kit.fontawesome.com/c888d5149c.js"
+      crossorigin="anonymous"
+    ></script>
   </head>
   <body>
     <div class="status-bar">
@@ -32,6 +36,30 @@
       <a class="navbar__link" href="#">TV Shows</a>
       <a class="navbar__link" href="#">Movies</a>
       <a class="navbar__link" href="#">My List</a>
+    </div>
+
+    <div class="search-input" style="margin-bottom: 20px">
+      <input
+        id="search"
+        class="search-input__field"
+        type="text"
+        placeholder="Search for a show, movie, genre, e.t.c."
+        required
+      />
+      <label class="search-input__label" for="search">
+        <img
+          class="search-input__icon"
+          src="assets/icons/search-movie.svg"
+          alt="Procurar"
+        />
+      </label>
+      <button class="search-input__speech">
+        <img
+          class="search-input__icon"
+          src="assets/icons/microphone.svg"
+          alt="Procurar"
+        />
+      </button>
     </div>
 
     <div class="play" style="margin-bottom: 20px">
