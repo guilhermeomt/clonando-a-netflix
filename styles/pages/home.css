@@ -1,0 +1,45 @@
+@import '../utils/index.css';
+
+@import '../components/status-bar.css';
+@import '../components/navbar.css';
+@import '../components/play.css';
+@import '../components/movie-list.css';
+@import '../components/bottom-navbar.css';
+
+.movie-background {
+  position: absolute;
+  top: 0;
+  left: 50%;
+  width: 100%;
+  max-width: 430px;
+  height: 415px;
+  background: url('../../assets/images/movie-background.png') no-repeat center;
+  background-size: cover;
+  z-index: -100;
+  transform: translate(-50%);
+}
+
+.play {
+  margin-top: 313px;
+  margin-bottom: 43px;
+}
+
+.title {
+  margin-left: 12px;
+  font-size: 21px;
+  font-weight: 700;
+}
+
+.title--big {
+  font-size: 27px;
+}
+
+#previews {
+  margin-top: 23px;
+  margin-bottom: 28px;
+}
+
+.movie-list {
+  margin-top: 14px;
+  margin-bottom: 22px;
+}
