@@ -7,7 +7,7 @@
 <p align="center">Dia de folga!</p>
 
 <p align="center">
-<img src="https://media1.tenor.com/images/085be2ba08bd8933ae331b09b0568c1b/tenor.gif?itemid=15386571"/>
+<img src="https://64.media.tumblr.com/59cd88cf78fc33152ed9cbde7c6fa589/tumblr_pgpv0y0dr91xjy0p8o1_400.gifv"/>
 <p>
 
 
