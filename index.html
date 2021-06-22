@@ -12,262 +12,283 @@
     ></script>
   </head>
   <body>
-    <div class="status-bar">
-      <p class="status-bar__time">9:41</p>
-      <div class="status-bar__icons">
-        <img src="assets/icons/cellular-connection.svg" alt="Conexão Celular" />
-        <img src="assets/icons/wifi.svg" alt="Wifi" />
-        <img
-          class="status-bar__battery"
-          src="assets/icons/battery.svg"
-          alt="Bateria"
-        />
-      </div>
-    </div>
-
-    <div class="navbar" style="margin-bottom: 10px">
-      <a href=".">
-        <img
-          class="navbar__logo"
-          src="assets/images/logo-netflix.png"
-          alt="Netflix"
-        />
-      </a>
-      <a class="navbar__link" href="#">TV Shows</a>
-      <a class="navbar__link" href="#">Movies</a>
-      <a class="navbar__link" href="#">My List</a>
-    </div>
-
-    <div class="search-input" style="margin-bottom: 20px">
-      <input
-        id="search"
-        class="search-input__field"
-        type="text"
-        placeholder="Search for a show, movie, genre, e.t.c."
-        required
-      />
-      <label class="search-input__label" for="search">
-        <img
-          class="search-input__icon"
-          src="assets/icons/search-movie.svg"
-          alt="Procurar"
-        />
-      </label>
-      <button class="search-input__speech">
-        <img
-          class="search-input__icon"
-          src="assets/icons/microphone.svg"
-          alt="Procurar"
-        />
-      </button>
-    </div>
-
-    <div class="play" style="margin-bottom: 20px">
-      <div class="play__top-ten">
-        <img class="play__img" src="assets/images/top10.png" alt="Top 10" />
-        <p class="play__title">#3 in Brazil Today</p>
-      </div>
-      <div class="play__controls">
-        <a class="play__link" href="#">
+    <div id="page-content">
+      <div class="status-bar">
+        <p class="status-bar__time">9:41</p>
+        <div class="status-bar__icons">
           <img
-            class="play__icon"
-            src="assets/icons/plus.svg"
-            alt="Minha Lista"
+            src="assets/icons/cellular-connection.svg"
+            alt="Conexão Celular"
           />
-          <p class="play__text">My List</p>
+          <img src="assets/icons/wifi.svg" alt="Wifi" />
+          <img
+            class="status-bar__battery"
+            src="assets/icons/battery.svg"
+            alt="Bateria"
+          />
+        </div>
+      </div>
+
+      <div class="navbar" style="margin-bottom: 10px">
+        <a href=".">
+          <img
+            class="navbar__logo"
+            src="assets/images/logo-netflix.png"
+            alt="Netflix"
+          />
         </a>
-        <button class="play__btn">
-          <img class="play__icon--btn" src="assets/icons/play.svg" alt="Play" />
-          Play
+        <a class="navbar__link" href="#">TV Shows</a>
+        <a class="navbar__link" href="#">Movies</a>
+        <a class="navbar__link" href="#">My List</a>
+      </div>
+
+      <div class="search-input" style="margin-bottom: 20px">
+        <input
+          id="search"
+          class="search-input__field"
+          type="text"
+          placeholder="Search for a show, movie, genre, e.t.c."
+          required
+        />
+        <label class="search-input__label" for="search">
+          <img
+            class="search-input__icon"
+            src="assets/icons/search-movie.svg"
+            alt="Procurar"
+          />
+        </label>
+        <button class="search-input__speech">
+          <img
+            class="search-input__icon"
+            src="assets/icons/microphone.svg"
+            alt="Procurar"
+          />
         </button>
-        <a class="play__link" href="#">
-          <img
-            class="play__icon"
-            src="assets/icons/info.svg"
-            alt="Mais Informações"
-          />
-          <p class="play__text">Info</p>
-        </a>
       </div>
-    </div>
 
-    <div class="search-movies">
-      <div class="search-movie__background" style="margin-bottom: 3px">
-        <div class="search-movie">
-          <img
-            class="search-movie__img"
-            src="assets/images/search-movie1.png"
-            alt="Ozark"
-          />
-          <div class="search-movie__content">
-            <h1 class="search-movie__title">Ozark</h1>
-            <a href="#">
-              <img
-                class="search-movie__play"
-                src="assets/icons/play-circle.svg"
-                alt="Play"
-              />
-            </a>
+      <div class="play" style="margin-bottom: 20px">
+        <div class="play__top-ten">
+          <img class="play__img" src="assets/images/top10.png" alt="Top 10" />
+          <p class="play__title">#3 in Brazil Today</p>
+        </div>
+        <div class="play__controls">
+          <a class="play__link" href="#">
+            <img
+              class="play__icon"
+              src="assets/icons/plus.svg"
+              alt="Minha Lista"
+            />
+            <p class="play__text">My List</p>
+          </a>
+          <button class="play__btn">
+            <img
+              class="play__icon--btn"
+              src="assets/icons/play.svg"
+              alt="Play"
+            />
+            Play
+          </button>
+          <a class="play__link" href="#">
+            <img
+              class="play__icon"
+              src="assets/icons/info.svg"
+              alt="Mais Informações"
+            />
+            <p class="play__text">Info</p>
+          </a>
+        </div>
+      </div>
+
+      <div class="search-movies">
+        <div class="search-movie__background" style="margin-bottom: 3px">
+          <div class="search-movie">
+            <img
+              class="search-movie__img"
+              src="assets/images/search-movie1.png"
+              alt="Ozark"
+            />
+            <div class="search-movie__content">
+              <h1 class="search-movie__title">Ozark</h1>
+              <a href="#">
+                <img
+                  class="search-movie__play"
+                  src="assets/icons/play-circle.svg"
+                  alt="Play"
+                />
+              </a>
+            </div>
+          </div>
+        </div>
+
+        <div class="search-movie__background" style="margin-bottom: 3px">
+          <div class="search-movie">
+            <img
+              class="search-movie__img"
+              src="assets/images/search-movie2.png"
+              alt="The Governator"
+            />
+            <div class="search-movie__content">
+              <h1 class="search-movie__title">The Governator</h1>
+              <a href="#">
+                <img
+                  class="search-movie__play"
+                  src="assets/icons/play-circle.svg"
+                  alt="Play"
+                />
+              </a>
+            </div>
+          </div>
+        </div>
+
+        <div class="search-movie__background" style="margin-bottom: 3px">
+          <div class="search-movie">
+            <img
+              class="search-movie__img"
+              src="assets/images/search-movie3.png"
+              alt="Breaking Bad"
+            />
+            <div class="search-movie__content">
+              <h1 class="search-movie__title">Breaking Bad</h1>
+              <a href="#">
+                <img
+                  class="search-movie__play"
+                  src="assets/icons/play-circle.svg"
+                  alt="Play"
+                />
+              </a>
+            </div>
+          </div>
+        </div>
+
+        <div class="search-movie__background" style="margin-bottom: 20px">
+          <div class="search-movie">
+            <img
+              class="search-movie__img"
+              src="assets/images/search-movie4.png"
+              alt="Citation"
+            />
+            <div class="search-movie__content">
+              <h1 class="search-movie__title">Citation</h1>
+              <a href="#">
+                <img
+                  class="search-movie__play"
+                  src="assets/icons/play-circle.svg"
+                  alt="Play"
+                />
+              </a>
+            </div>
           </div>
         </div>
       </div>
 
-      <div class="search-movie__background" style="margin-bottom: 3px">
-        <div class="search-movie">
-          <img
-            class="search-movie__img"
-            src="assets/images/search-movie2.png"
-            alt="The Governator"
-          />
-          <div class="search-movie__content">
-            <h1 class="search-movie__title">The Governator</h1>
-            <a href="#">
-              <img
-                class="search-movie__play"
-                src="assets/icons/play-circle.svg"
-                alt="Play"
-              />
-            </a>
+      <div class="movie-list" style="margin-bottom: 20px">
+        <img
+          class="movie-list__img movie-list__img--rounded"
+          src="assets/images/movie1.png"
+          alt="Lucifer"
+        />
+        <img
+          class="movie-list__img movie-list__img--rounded"
+          src="assets/images/movie3.png"
+          alt="Oloture"
+        />
+        <img
+          class="movie-list__img movie-list__img--rounded"
+          src="assets/images/movie2.png"
+          alt="The Princess Switch Switched Again"
+        />
+        <img
+          class="movie-list__img movie-list__img--rounded"
+          src="assets/images/movie4.png"
+          alt="The Blacklist"
+        />
+      </div>
+
+      <div class="movie-list" style="margin-bottom: 10px">
+        <img
+          class="movie-list__img"
+          src="assets/images/movie2.png"
+          alt="The Princess Switch Switched Again"
+        />
+        <img
+          class="movie-list__img"
+          src="assets/images/movie3.png"
+          alt="Oloture"
+        />
+        <img
+          class="movie-list__img"
+          src="assets/images/movie4.png"
+          alt="The Blacklist"
+        />
+        <img
+          class="movie-list__img"
+          src="assets/images/movie1.png"
+          alt="Lucifer"
+        />
+      </div>
+
+      <div class="movie-list" style="margin-bottom: 10px">
+        <img
+          class="movie-list__img movie-list__img--big"
+          src="assets/images/movie2.png"
+          alt="The Princess Switch Switched Again"
+        />
+        <img
+          class="movie-list__img movie-list__img--big"
+          src="assets/images/movie1.png"
+          alt="Lucifer"
+        />
+        <img
+          class="movie-list__img movie-list__img--big"
+          src="assets/images/movie3.png"
+          alt="Oloture"
+        />
+        <img
+          class="movie-list__img movie-list__img--big"
+          src="assets/images/movie4.png"
+          alt="The Blacklist"
+        />
+      </div>
+
+      <div class="bottom-navbar__background">
+        <div class="bottom-navbar">
+          <div class="bottom-navbar__button">
+            <img src="assets/icons/home-active.svg" alt="Home" />
+            <p class="bottom-navbar__text bottom-navbar__text--active">Home</p>
+          </div>
+          <div class="bottom-navbar__button">
+            <img src="assets/icons/search.svg" alt="Pesquisa" />
+            <p class="bottom-navbar__text">Search</p>
+          </div>
+          <div
+            data-notification="4"
+            class="bottom-navbar__button bottom-navbar__button--notification"
+          >
+            <img src="assets/icons/coming-soon.svg" alt="Em Breve" />
+            <p class="bottom-navbar__text">Coming Soon</p>
+          </div>
+          <div class="bottom-navbar__button">
+            <img src="assets/icons/downloads.svg" alt="Downloads" />
+            <p class="bottom-navbar__text">Downloads</p>
+          </div>
+          <div class="bottom-navbar__button">
+            <img src="assets/icons/more.svg" alt="Mais" />
+            <p class="bottom-navbar__text">More</p>
           </div>
         </div>
       </div>
-
-      <div class="search-movie__background" style="margin-bottom: 3px">
-        <div class="search-movie">
-          <img
-            class="search-movie__img"
-            src="assets/images/search-movie3.png"
-            alt="Breaking Bad"
-          />
-          <div class="search-movie__content">
-            <h1 class="search-movie__title">Breaking Bad</h1>
-            <a href="#">
-              <img
-                class="search-movie__play"
-                src="assets/icons/play-circle.svg"
-                alt="Play"
-              />
-            </a>
-          </div>
-        </div>
-      </div>
-
-      <div class="search-movie__background" style="margin-bottom: 20px">
-        <div class="search-movie">
-          <img
-            class="search-movie__img"
-            src="assets/images/search-movie4.png"
-            alt="Citation"
-          />
-          <div class="search-movie__content">
-            <h1 class="search-movie__title">Citation</h1>
-            <a href="#">
-              <img
-                class="search-movie__play"
-                src="assets/icons/play-circle.svg"
-                alt="Play"
-              />
-            </a>
-          </div>
-        </div>
-      </div>
     </div>
 
-    <div class="movie-list" style="margin-bottom: 20px">
-      <img
-        class="movie-list__img movie-list__img--rounded"
-        src="assets/images/movie1.png"
-        alt="Lucifer"
-      />
-      <img
-        class="movie-list__img movie-list__img--rounded"
-        src="assets/images/movie3.png"
-        alt="Oloture"
-      />
-      <img
-        class="movie-list__img movie-list__img--rounded"
-        src="assets/images/movie2.png"
-        alt="The Princess Switch Switched Again"
-      />
-      <img
-        class="movie-list__img movie-list__img--rounded"
-        src="assets/images/movie4.png"
-        alt="The Blacklist"
-      />
-    </div>
-
-    <div class="movie-list" style="margin-bottom: 10px">
-      <img
-        class="movie-list__img"
-        src="assets/images/movie2.png"
-        alt="The Princess Switch Switched Again"
-      />
-      <img
-        class="movie-list__img"
-        src="assets/images/movie3.png"
-        alt="Oloture"
-      />
-      <img
-        class="movie-list__img"
-        src="assets/images/movie4.png"
-        alt="The Blacklist"
-      />
-      <img
-        class="movie-list__img"
-        src="assets/images/movie1.png"
-        alt="Lucifer"
-      />
-    </div>
-
-    <div class="movie-list" style="margin-bottom: 10px">
-      <img
-        class="movie-list__img movie-list__img--big"
-        src="assets/images/movie2.png"
-        alt="The Princess Switch Switched Again"
-      />
-      <img
-        class="movie-list__img movie-list__img--big"
-        src="assets/images/movie1.png"
-        alt="Lucifer"
-      />
-      <img
-        class="movie-list__img movie-list__img--big"
-        src="assets/images/movie3.png"
-        alt="Oloture"
-      />
-      <img
-        class="movie-list__img movie-list__img--big"
-        src="assets/images/movie4.png"
-        alt="The Blacklist"
-      />
-    </div>
-
-    <div class="bottom-navbar__background">
-      <div class="bottom-navbar">
-        <div class="bottom-navbar__button">
-          <img src="assets/icons/home-active.svg" alt="Home" />
-          <p class="bottom-navbar__text bottom-navbar__text--active">Home</p>
-        </div>
-        <div class="bottom-navbar__button">
-          <img src="assets/icons/search.svg" alt="Pesquisa" />
-          <p class="bottom-navbar__text">Search</p>
-        </div>
-        <div
-          data-notification="4"
-          class="bottom-navbar__button bottom-navbar__button--notification"
-        >
-          <img src="assets/icons/coming-soon.svg" alt="Em Breve" />
-          <p class="bottom-navbar__text">Coming Soon</p>
-        </div>
-        <div class="bottom-navbar__button">
-          <img src="assets/icons/downloads.svg" alt="Downloads" />
-          <p class="bottom-navbar__text">Downloads</p>
-        </div>
-        <div class="bottom-navbar__button">
-          <img src="assets/icons/more.svg" alt="Mais" />
-          <p class="bottom-navbar__text">More</p>
-        </div>
-      </div>
+    <div class="max-resolution">
+      <p class="max-resolution__text">
+        Opa, sua resolução de tela está muito grande!
+      </p>
+      <p class="max-resolution__text max-resolution__text--tablet">
+        Parece que você está usando um TABLET, tente acessar no celular
+      </p>
+      <p class="max-resolution__text max-resolution__text--desktop">
+        Parece que você está usando um NOTEBOOK, tente acessar no celular
+      </p>
     </div>
   </body>
 </html>
