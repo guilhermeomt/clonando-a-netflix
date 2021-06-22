@@ -10,6 +10,9 @@ html {
 }
 
 body {
+  position: relative;
+  max-width: 430px;
+  margin: 0 auto;
   background-color: #000;
   color: #fff;
   font-family: 'Roboto', Arial, Helvetica, sans-serif;
@@ -26,11 +29,4 @@ a:hover,
 a:focus {
   text-decoration: none;
   color: #fff;
-}
-
-@media only screen and (min-width: 1024px) {
-  body {
-    width: 30%;
-    margin: 0 auto;
-  }
 }

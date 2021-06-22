@@ -6,12 +6,16 @@
 @import '../components/movie-list.css';
 @import '../components/bottom-navbar.css';
 
+body {
+  position: relative;
+}
+
 .movie-background {
   position: absolute;
   top: 0;
   left: 50%;
   width: 100%;
-  max-width: 430px;
+  max-width: 425px;
   height: 415px;
   background: url('../../assets/images/movie-background.png') no-repeat center;
   background-size: cover;
