@@ -1,0 +1,16 @@
+@import '../utils/index.css';
+
+@import '../components/status-bar.css';
+@import '../components/profile-list.css';
+@import '../components/edit-navbar.css';
+
+#animation {
+  animation: page-load 0.6s ease;
+}
+
+.center {
+  display: flex;
+  height: calc(100vh - 133px);
+  justify-content: center;
+  align-items: center;
+}
