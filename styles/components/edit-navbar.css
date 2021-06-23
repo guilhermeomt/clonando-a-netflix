@@ -1,0 +1,21 @@
+@import '../components/logo.css';
+
+.edit-navbar {
+  width: 95%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: auto;
+  padding: 13px 20px;
+}
+
+.edit-navbar__space {
+  width: 36px;
+  height: 26px;
+}
+
+.edit-navbar__btn {
+  background-color: transparent;
+  border: 0;
+  cursor: pointer;
+}
