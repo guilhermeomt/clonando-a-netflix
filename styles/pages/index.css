@@ -1,9 +1,10 @@
 @import '../utils/index.css';
 
 @import '../components/status-bar.css';
-@import '../components/play.css';
-@import '../components/navbar.css';
-@import '../components/movie-list.css';
-@import '../components/bottom-navbar.css';
-@import '../components/search-movie.css';
-@import '../components/search-input.css';
+@import '../components/logo.css';
+
+.center {
+  display: flex;
+  height: calc(100vh - 44px);
+  justify-content: center;
+}
