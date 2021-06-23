@@ -1,0 +1,8 @@
+.logo {
+  width: 207px;
+  animation: page-load 1s ease;
+}
+
+.logo--small {
+  width: 138px;
+}
