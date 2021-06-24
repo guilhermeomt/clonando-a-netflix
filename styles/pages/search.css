@@ -1,0 +1,17 @@
+@import '../utils/index.css';
+
+@import '../components/status-bar.css';
+@import '../components/search-input.css';
+@import '../components/search-movie.css';
+@import '../components/bottom-navbar.css';
+
+body {
+  position: relative;
+}
+
+.title {
+  width: 90%;
+  margin: 21px auto;
+  font-size: 27px;
+  font-weight: 700;
+}

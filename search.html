@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <link rel="stylesheet" href="styles/pages/search.css" />
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Home | Netflix</title>
+  </head>
+  <body>
+    <div id="page-content">
+      <div class="status-bar">
+        <p class="status-bar__time">9:41</p>
+        <div class="status-bar__icons">
+          <img
+            src="assets/icons/cellular-connection.svg"
+            alt="Conexão Celular"
+          />
+          <img src="assets/icons/wifi.svg" alt="Wifi" />
+          <img
+            class="status-bar__battery"
+            src="assets/icons/battery.svg"
+            alt="Bateria"
+          />
+        </div>
+      </div>
+
+      <div class="search-input" style="margin-bottom: 20px">
+        <input
+          id="search"
+          class="search-input__field"
+          type="text"
+          placeholder="Search for a show, movie, genre, e.t.c."
+          required
+        />
+        <label class="search-input__label" for="search">
+          <img
+            class="search-input__icon"
+            src="assets/icons/search-movie.svg"
+            alt="Procurar"
+          />
+        </label>
+        <button class="search-input__speech">
+          <img
+            class="search-input__icon"
+            src="assets/icons/microphone.svg"
+            alt="Procurar"
+          />
+        </button>
+      </div>
+
+      <h1 class="title">Top Searches</h1>
+
+      <div class="search-movies">
+        <div class="search-movie__background" style="margin-bottom: 3px">
+          <div class="search-movie">
+            <img
+              class="search-movie__img"
+              src="assets/images/search-movie1.png"
+              alt="Ozark"
+            />
+            <div class="search-movie__content">
+              <h1 class="search-movie__title">Ozark</h1>
+              <a href="#">
+                <img
+                  class="search-movie__play"
+                  src="assets/icons/play-circle.svg"
+                  alt="Play"
+                />
+              </a>
+            </div>
+          </div>
+        </div>
+
+        <div class="search-movie__background" style="margin-bottom: 3px">
+          <div class="search-movie">
+            <img
+              class="search-movie__img"
+              src="assets/images/search-movie2.png"
+              alt="The Governator"
+            />
+            <div class="search-movie__content">
+              <h1 class="search-movie__title">The Governator</h1>
+              <a href="#">
+                <img
+                  class="search-movie__play"
+                  src="assets/icons/play-circle.svg"
+                  alt="Play"
+                />
+              </a>
+            </div>
+          </div>
+        </div>
+
+        <div class="search-movie__background" style="margin-bottom: 3px">
+          <div class="search-movie">
+            <img
+              class="search-movie__img"
+              src="assets/images/search-movie3.png"
+              alt="Breaking Bad"
+            />
+            <div class="search-movie__content">
+              <h1 class="search-movie__title">Breaking Bad</h1>
+              <a href="#">
+                <img
+                  class="search-movie__play"
+                  src="assets/icons/play-circle.svg"
+                  alt="Play"
+                />
+              </a>
+            </div>
+          </div>
+        </div>
+
+        <div class="search-movie__background" style="margin-bottom: 20px">
+          <div class="search-movie">
+            <img
+              class="search-movie__img"
+              src="assets/images/search-movie4.png"
+              alt="Citation"
+            />
+            <div class="search-movie__content">
+              <h1 class="search-movie__title">Citation</h1>
+              <a href="#">
+                <img
+                  class="search-movie__play"
+                  src="assets/icons/play-circle.svg"
+                  alt="Play"
+                />
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="bottom-navbar__background">
+        <div class="bottom-navbar">
+          <a href="home.html" class="bottom-navbar__button">
+            <img src="assets/icons/home.svg" alt="Home" />
+            <p class="bottom-navbar__text">Home</p>
+          </a>
+          <a href="search.html" class="bottom-navbar__button">
+            <img src="assets/icons/search-active.svg" alt="Pesquisa" />
+            <p class="bottom-navbar__text bottom-navbar__text--active">
+              Search
+            </p>
+          </a>
+          <a
+            href="coming-soon.html"
+            data-notification="4"
+            class="bottom-navbar__button bottom-navbar__button--notification"
+          >
+            <img src="assets/icons/coming-soon.svg" alt="Em Breve" />
+            <p class="bottom-navbar__text">Coming Soon</p>
+          </a>
+          <a href="downloads.html" class="bottom-navbar__button">
+            <img src="assets/icons/downloads.svg" alt="Downloads" />
+            <p class="bottom-navbar__text">Downloads</p>
+          </a>
+          <a href="more.html" class="bottom-navbar__button">
+            <img src="assets/icons/more.svg" alt="Mais" />
+            <p class="bottom-navbar__text">More</p>
+          </a>
+        </div>
+      </div>
+    </div>
+
+    <div class="max-resolution">
+      <p class="max-resolution__text">
+        Opa, sua resolução de tela está muito grande!
+      </p>
+      <p class="max-resolution__text max-resolution__text--tablet">
+        Parece que você está usando um TABLET, tente acessar no celular
+      </p>
+      <p class="max-resolution__text max-resolution__text--desktop">
+        Parece que você está usando um NOTEBOOK, tente acessar no celular
+      </p>
+    </div>
+  </body>
+</html>
