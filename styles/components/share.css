@@ -1,0 +1,98 @@
+.share {
+  width: 90%;
+  margin: 0 auto;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.share__background {
+  background-color: #1a1a1a;
+}
+
+.share-title {
+  display: flex;
+  align-items: center;
+  margin-bottom: 8px;
+}
+
+.share-title__text {
+  margin-left: 9px;
+  font-size: 20px;
+  font-weight: 700;
+}
+
+.share__subtitle {
+  font-size: 11px;
+  line-height: 18px;
+  margin-bottom: 8px;
+}
+
+.share__terms {
+  display: block;
+  width: fit-content;
+  text-decoration: underline;
+  margin-bottom: 11px;
+  font-size: 11px;
+  color: #c4c4c4;
+  font-weight: 500;
+}
+
+.share-copy {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 21px;
+}
+
+.share-copy__input {
+  width: 218px;
+  height: 37px;
+  border: 0;
+  padding-left: 10px;
+  font-size: 11px;
+  background-color: black;
+  color: white;
+  outline: 0;
+}
+
+.share-copy__input::placeholder {
+  color: white;
+}
+
+.share-copy__btn {
+  border: 0;
+  font-size: 17px;
+  font-weight: 600;
+  width: 95px;
+  height: 37px;
+  background-color: #fff;
+  border-radius: 2px;
+}
+
+.share-social {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.share-social__btn {
+  padding: 0;
+  border: 0;
+  background-color: transparent;
+}
+
+.share-social__btn--more {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 9px;
+  color: #fff;
+  margin-top: 5px;
+}
+
+.share-social__divider {
+  height: 41px;
+  width: 1px;
+  background-color: #8c8787;
+}

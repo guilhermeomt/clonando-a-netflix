@@ -1,0 +1,42 @@
+@import '../utils/index.css';
+
+@import '../components/status-bar.css';
+@import '../components/profile-list.css';
+@import '../components/share.css';
+@import '../components/settings.css';
+@import '../components/bottom-navbar.css';
+
+.profile-list {
+  margin-top: 20px;
+}
+
+.manage {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 0;
+  margin: 2px auto 0 auto;
+  background-color: transparent;
+}
+
+.manage__img {
+  width: 12px;
+  height: 12px;
+}
+
+.manage__text {
+  font-size: 14px;
+  font-weight: 500;
+  color: #ffffff81;
+  line-height: 30px;
+  margin-left: 6px;
+}
+
+.profile-list {
+  margin-top: 40px;
+  margin-bottom: 10px;
+}
+
+.settings {
+  margin-bottom: 81px;
+}

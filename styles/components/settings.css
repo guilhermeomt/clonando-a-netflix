@@ -1,0 +1,25 @@
+.settings-check {
+  display: flex;
+  align-items: center;
+  border-bottom: 1px solid #424242;
+  padding-left: 27px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+
+.settings__list {
+  width: fit-content;
+  padding-left: 27px;
+  list-style: none;
+}
+
+.settings__link {
+  width: fit-content;
+  margin-left: 27px;
+  margin-top: 6px;
+  margin-bottom: 6px;
+}
+
+.settings__link > li {
+  width: fit-content;
+}
