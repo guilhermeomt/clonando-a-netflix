@@ -1,0 +1,14 @@
+@import '../utils/index.css';
+
+@import '../components/status-bar.css';
+@import '../components/notifications.css';
+@import '../components/movie-preview.css';
+@import '../components/bottom-navbar.css';
+
+.movie-previews {
+  display: flex;
+  flex-direction: column;
+  gap: 17px;
+  margin-top: 25px;
+  margin-bottom: 100px;
+}
